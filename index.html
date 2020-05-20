@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    zachmckenna
+  </title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="antialiased flex w-screen mb-4 grid grid-cols-1">
+
+    <nav class="flex items-center justify-center flex-wrap p-2 w-screen">
+      <div class="grid grid-cols-1 gap-2">
+        <div class="flex items-center flex-shrink-0 text-white justify-center">
+          <span class="text-3xl tracking-tight text-gray-100"
+            style="font-family: 'Lato', sans-serif;font-weight:700;">Zach McKenna</span>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto justify-center">
+          <div class="flex text-md lg:flex-grow justify-center"
+            style="font-family: 'Lato', sans-serif;font-weight:700;">
+            <a href="#about_me"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
+              About
+            </a>
+            <a href="#portfolio"
+              class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
+              Portfolio
+            </a>
+            <a href="resume.pdf" target="_blank" class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white">
+              Résumé
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="flex w-auto justify-center mx-24 mt-24 mb-10" id="about_me">
+      <div class="flex max-w-4xl">
+        <p class="text-3xl text-gray-800 w-1/4 px-6 text-right"
+          style="font-family: 'Lato', sans-serif;font-weight:400;">About Me</p>
+        <p class="border-l text-2xl text-gray-700 px-6 w-3/4" style="font-family: 'Lato', sans-serif;font-weight:400;">I
+          am a student at
+          the Colorado School of Mines pursuing a dual degree in electrical engineering and computer science. In
+          my free time I work on coding projects as well as different microcontroller and robotics projects.</p>
+      </div>
+    </div>
+
+    <div class="flex w-auto justify-center mx-24 my-10" id="portfolio">
+      <div class="flex max-w-4xl">
+        <div class="w-1/4">
+        <p class="text-3xl text-gray-800 px-6 text-right"
+          style="font-family: 'Lato', sans-serif;font-weight:400;">Portfolio</p>
+        </div>
+        <div class="flex grid grid-cols-1 w-3/4 border-l px-6">
+          <div class="">
+            <a href="https://turbo-app.herokuapp.com/" target="_blank"><p class="text-2xl text-gray-700" style="font-family: 'Lato', sans-serif;font-weight:700;">Turbo<svg class="ml-1 mb-1 inline-block h-4 w-4 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.26 13a2 2 0 0 1 .01-2.01A3 3 0 0 0 9 5H5a3 3 0 0 0 0 6h.08a6.06 6.06 0 0 0 0 2H5A5 5 0 0 1 5 3h4a5 5 0 0 1 .26 10zm1.48-6a2 2 0 0 1-.01 2.01A3 3 0 0 0 11 15h4a3 3 0 0 0 0-6h-.08a6.06 6.06 0 0 0 0-2H15a5 5 0 0 1 0 10h-4a5 5 0 0 1-.26-10z"/></svg></p></a>
+            <p class="text-2xl text-gray-700" style="font-family: 'Lato', sans-serif;font-weight:400;">
+            Turbo is a Ruby on Rails web app for hobbyists to track their automotive projects and maintenance history all in one place.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>
